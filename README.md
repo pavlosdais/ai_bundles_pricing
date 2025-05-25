@@ -1,4 +1,5 @@
 # AI-Powered Bundling & Pricing Strategist
+A complete end-to-end pipeline for generating and pricing personalized product bundles using state-of-the-art LLMs, embeddings and business logic.
 
 - `dataset.xlsx`: The dataset containing the products.
 - `generate_dataset.py`: Preprocess the .xsls data into .csv format.
@@ -8,7 +9,19 @@
 
 All code was run on Kaggle and needs path modifications to run locally.
 
-## Members
+## Key Features
+1. Embedding & Similarity Search
+- SentenceTransformer → 384-dim embeddings of product titles
+- FAISS index for sub-millisecond nearest-neighbor lookups
+- Uncover “hidden” complementary relationships in your catalog
+
+2. Smart Bundling & Pricing
+- User profiles: average spend, past purchases, taste-vectors
+- Bundle feature-engineering: price context, category, stock, co-buy patterns
+- Interpretable linear scoring with tunable weights
+- Margin- and stock-aware discount engine (5–40% range)
+
+## Team Crypto Dolphins
 - Themis Marinaki
 - Aristarchos Kaloutsas
 - Panagiotis Kanellopoulos
