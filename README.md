@@ -21,8 +21,8 @@ All code was run on Kaggle and needs path modifications to run locally.
 - Interpretable linear scoring with tunable weights
 - Margin- and stock-aware discount engine (5–40% range)
 
-## Team Crypto Dolphins
-- Themis Marinaki
-- Aristarchos Kaloutsas
-- Panagiotis Kanellopoulos
-- Pavlos Ntais
+## Team Members
+- [Themis Marinaki](https://github.com/marinakithemis)
+- [Aristarchos Kaloutsas](https://github.com/aristarhoskal)
+- [Panagiotis Kanellopoulos](https://github.com/kanellopoulosP)
+- [Pavlos Ntais](https://github.com/pavlosdais)
